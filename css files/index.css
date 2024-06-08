@@ -1,0 +1,716 @@
+
+/* .indexpage{
+    margin: auto;
+    align-items: center;
+} */
+
+/* Header code starts here */
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+   gap:30px ;
+   justify-content: space-around;
+}
+
+#logo{
+    height: 100px;
+    width: 150px;
+    padding: 2px;
+   }
+.linkpages a{
+   text-decoration: none;
+}
+.linkpages ol li{
+    display:inline-flex;
+    justify-content: center;
+    padding: 30px;
+     left: 150px;
+}
+
+.search{
+    position: relative;
+    padding: 50px;
+}
+#searchbar{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 17px;
+    
+    
+}
+#searchicon{
+    position: absolute;
+    bottom: 45px;
+    left: 250px;
+
+}
+.icons{
+    height: 30px;
+    width: 30px; 
+    display: flex;
+    align-self: center;
+    justify-content:end;
+    gap: 25px;
+}
+
+/* Header code ends here */
+
+/* Herow section code starts here */
+
+.Herowsection{
+    display: flex;
+    
+    margin-top: 30px;
+    padding: 50px;
+    justify-content: space-between;
+}
+.homeimg img{
+   height: 400px;
+   width: 600px;
+   margin-right: 50px;
+}
+.Herowsection h1{
+   font-size: 40px;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.content h1 span{
+    color: rgb(0, 128, 124);
+    font-size: 100px;
+}
+.Herowsection button{
+    height: 50px;
+    width: 100px;
+    background-color:rgb(0, 124, 128);
+    color:white;
+    border-color: deepskyblue;
+}
+
+.Herowsection button:hover{
+        color: rgb(0, 124, 128);
+        background-color:white;
+}
+.popularcategory h2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards p{
+    text-align: center;
+}
+
+.cards img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+   
+}
+.individualcard{
+    padding: 10px;
+    border: 1px solid black;
+     margin: 20px; 
+     border-radius: 10px;
+}
+
+/* Herow section code ends here */
+
+/* featured products code starts here */
+
+
+.featuredbuttons .fbtn{
+    color:azure;
+    background-color:violet;
+    padding: 10px;
+}
+.featuredbuttons{
+     margin-left: 100px;
+    padding: 20px;
+} 
+.featuredbuttons .fpbutton{
+    padding: 10px;
+}
+
+.fa-star{
+    color:orange;
+}
+ 
+ p strike{
+    color: lightslategrey;
+    font-size: small;
+ }
+.featuredproducts{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: coral;
+    color: aliceblue;
+}
+.imageicons{
+    opacity: 0;
+    position: absolute;
+    top: 100px;
+     left: 100px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+   
+}
+.fCard:hover .imageicons{
+    opacity: 1;
+    
+}
+.fa-eye{
+    height: 20px;
+    width: 20px; 
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 6px;
+    text-align: center;
+background-color:white;
+    
+}
+
+.fa-heart{
+    height: 20px;
+    width: 20px; 
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+}
+.fa-code-compare{
+    height: 20px;
+    width: 20px; 
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+}
+.tooltip{
+    opacity: 0;
+    position: absolute;
+    top: 60px;
+     left: 80px;  
+}
+.box1 p{
+    height: 20px;
+    width: 80px;
+    border: 1px solid;
+    position: relative;
+}
+.box2{
+    height: 10px;
+    width: 10px;
+    border: 1px solid;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    transform: rotate(45deg);
+    border-top: none;
+    border-left: none;
+}
+
+
+.fa-eye:hover .tooltip{
+    opacity: 1;
+    background-color: darkturquoise;
+    border: none;
+}
+
+
+
+.fCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+ .Shirtimg{
+    height:200px ;
+    background-image: url(/assets/img/product-1-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+
+} 
+.info{
+    height: 150px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    margin: 5px;
+    display: flex;
+    
+}
+.cartimg{
+    height: 20px;
+    width: 20px;
+    margin-top: 105px;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px;
+
+}
+.cartimg:hover{
+   color: blue;
+   background-color:aqua;
+}
+
+.fCard:hover .Shirtimg{
+    background-image: url(/assets/img/product-1-2.jpg);
+    transition: all 2s linear;
+}
+ 
+/* Featured Products Card2 */
+
+.floralshirtCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.floralshirtCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: aliceblue;
+}
+.floralshirtCard:hover .imageicons{
+    opacity: 1;
+}
+.floralshirtimg{
+    height:200px ;
+    background-image: url(/assets/img/product-2-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.floralshirtCard:hover .floralshirtimg{
+    background-image: url(/assets/img/product-2-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products Card3 */
+
+.shoeCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.shoeCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:limegreen;
+    color: aliceblue;
+}
+.shoeCard:hover .imageicons{
+    opacity: 1;
+}
+.shoeimg{
+    height:200px ;
+    background-image: url(/assets/img/product-3-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.shoeCard:hover .shoeimg{
+    background-image: url(/assets/img/product-3-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products Card4 */
+.trousersCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.trousersCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightcoral;
+    color: aliceblue;
+}
+.trousersCard:hover .imageicons{
+    opacity: 1;
+}
+.trousersimg{
+    height:200px ;
+    background-image: url(/assets/img/product-4-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.trousersCard:hover .trousersimg{
+    background-image: url(/assets/img/product-4-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products card5 */
+
+.scarfcapCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.scarfcapCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:lightblue;
+    color: aliceblue;
+}
+
+.scarfcapCard:hover .imageicons{
+    opacity: 1;
+}
+.scarfcapimg{
+    height:200px ;
+    background-image: url(/assets/img/product-5-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.scarfcapCard:hover .scarfcapimg{
+    background-image: url(/assets/img/product-5-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products card6*/
+
+.colorpatternCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.colorpatternCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:lightgreen;
+    color: aliceblue;
+}
+.colorpatternCard:hover .imageicons{
+    opacity: 1;
+}
+.colorpatternimg{
+    height:200px ;
+    background-image: url(/assets/img/product-6-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.colorpatternCard:hover .colorpatternimg{
+    background-image: url(/assets/img/product-6-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products card 7*/
+
+.womenCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.womenCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:lightpink;
+    color: aliceblue;
+}
+.womenCard:hover .imageicons{
+    opacity: 1;
+}
+.womenimg{
+    height:200px ;
+    background-image: url(/assets/img/product-7-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.womenCard:hover .womenimg{
+    background-image: url(/assets/img/product-7-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products card 8*/
+
+.coatshirtCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.coatshirtCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:lightskyblue;
+    color: aliceblue;
+}
+.coatshirtCard:hover .imageicons{
+    opacity: 1;
+}
+.coatshirtimg{
+    height:200px ;
+    background-image: url(/assets/img/product-8-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+    
+} 
+.coatshirtCard:hover .coatshirtimg{
+    background-image: url(/assets/img/product-8-2.jpg);
+    transition: all 2s linear;
+}
+
+/* featured products code ends here */
+
+
+
+/* Deals of the day code starts here */
+.Dealings{
+     display: flex;
+     justify-content: center; 
+     
+}
+.dealsofday{
+    background-image: url(/assets/img/deals-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    height: 400px;
+    width: 650px;
+    /* position: relative; */
+}
+.dealsimgcontent{
+    padding: 10px;
+    margin: 20px;
+}
+.dealsimgcontent h2{
+    color: rgb(0, 128, 124);
+       }
+.Dealings .moderndesigns{
+    font-size: larger;
+}
+.price span{
+    color: red;
+}
+
+.offertiming{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0%;
+   
+}
+.offertiming li{
+    border: 1px solid black;
+    border: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 3px;
+    align-items: center;
+    background-color: darksalmon;
+    display:flex;
+    justify-content: center;
+    
+}
+.offertimingpara{
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    gap: 38px;
+    font-size: small;
+}
+
+.wclothingcontent{
+    padding: 10px;
+    margin: 20px;
+}
+.Womenclothing{
+    background-image: url(/assets/img/deals-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+}
+.Dealings button{
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color:rgb(0, 128, 124) ;
+}
+.Dealings button:hover{
+    color:rgb(0, 128, 124) ;
+    background-color: white;
+}
+
+/* Deals of the day code starts here */
+
+
+/* New Arrivals code starts here */
+
+.newarrivals h2{
+    margin-left: 100px;
+}
+.newarrivalcards{
+    display: flex;
+    justify-content: center;
+}
+
+/* New Arrivals code ends here */
+
+/* column objects code starts here */
+.columnobjects{
+    border: 1px solid;
+    margin: 10px;
+    border: none;
+}
+ table{
+    margin-left: 100px;
+    padding: 10px;
+    position: relative;
+} 
+table th{
+    position: relative;
+    padding:10px 10px 10px 0%;
+    right: 100px;
+}
+.columnobjects table span{
+    color:rgb(0, 128, 124)  ;
+}
+/* column objects code ends here */
+
+/* footer head code starts here */
+.foothead{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgray;
+    border: 1px solid black;
+    /* justify-content: center; */
+    margin: 10px 2px;
+}
+.foothead img{
+    height: 30px;
+    width: 30px;
+/* margin-bottom: 20px; */
+}
+.foothead .eimgcontent{
+    display:inline-flex;
+ }  
+.foothead form{
+    margin: 5px;
+    padding: 5px;
+}
+form button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    /* border: none; */
+}
+form button:hover{
+    background-color: brown;
+}
+form input{
+    height: 30px;
+    width: 300px;
+}
+/* foothead code ends here */
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.Address p:hover{
+       margin-left: 10px;
+}
+.Myaccount p:hover{
+    margin-left: 10px;
+}
+.followme img{
+      display:inline-flex;
+      height: 20px;
+      width: 20px;
+}
+.Designer{
+    display: flex;
+    justify-content: space-between;
+}
+
