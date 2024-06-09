@@ -208,11 +208,13 @@ background-color:white;
     text-align: center;
     background-color: white;
 }
-.tooltip{
-    opacity: 0;
+/* .tooltip{
+    /* opacity: 1; 
     position: absolute;
     top: 60px;
      left: 80px;  
+   
+
 }
 .box1 p{
     height: 20px;
@@ -233,11 +235,13 @@ background-color:white;
 }
 
 
-.fa-eye:hover .tooltip{
-    opacity: 1;
+.fa-eye:hover  .tooltip{
+    /* opacity: 1; 
     background-color: darkturquoise;
-    border: none;
-}
+    /* border: none; 
+    visibility: visible;
+    
+} */
 
 
 
@@ -714,3 +718,259 @@ form input{
     justify-content: space-between;
 }
 
+
+
+
+
+
+
+
+
+/* Shop page css code started here */
+
+.pgnames{
+    border: 1px solid lightgray;
+    height: 50px;
+    background-color: lightgrey;
+    
+}
+.pgnames p{
+    margin-left: 20px;
+}
+.shopproducts{
+    margin-left: 100px;
+    padding: 30px;
+}
+/* featured card products 9 */
+.sandalCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.sandalCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: aliceblue;
+}
+.sandalCard:hover .imageicons{
+    opacity: 1;
+}
+.sandalCardimg{
+    height:200px ;
+    background-image: url(/assets/img/product-10-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.sandalCard:hover .sandalCardimg{
+    background-image: url(/assets/img/product-10-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products Card10 */
+
+.floralpantCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.floralpantCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:limegreen;
+    color: aliceblue;
+}
+.floralpantCard:hover .imageicons{
+    opacity: 1;
+}
+.floralpantimg{
+    height:200px ;
+    background-image: url(/assets/img/product-11-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.floralpantCard:hover .floralpantimg{
+    background-image: url(/assets/img/product-11-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products Card4 */
+.trousersCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.trousersCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightcoral;
+    color: aliceblue;
+}
+.trousersCard:hover .imageicons{
+    opacity: 1;
+}
+.trousersimg{
+    height:200px ;
+    background-image: url(/assets/img/product-4-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.trousersCard:hover .trousersimg{
+    background-image: url(/assets/img/product-4-2.jpg);
+    transition: all 2s linear;
+}
+
+/* Featured Products card5 */
+
+.whiteshirtCard{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.whiteshirtCard .btnhot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:lightblue;
+    color: aliceblue;
+}
+
+.whiteshirtCard:hover .imageicons{
+    opacity: 1;
+}
+.whiteshirtimg{
+    height:200px ;
+    background-image: url(/assets/img/product-12-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+} 
+.whiteshirtCard:hover .whiteshirtimg{
+    background-image: url(/assets/img/product-12-2.jpg);
+    transition: all 2s linear;
+}
+
+.pagination{
+      border: 1px solid;
+      height: 40px;
+      width: 200px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      border: none;
+      
+}
+.pagination ol{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 0%;
+    margin: 5px;
+    gap: 5px;
+}
+.pagination li{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+ .pagination li#one{
+    background-color: rgb(0, 128, 124);
+}
+.pagination li:hover{
+    background-color: rgb(0, 128, 124) ;
+}
+
+
+/* shop page css code ends here */
+
+
+
+
+
+/* My Accounts css code starts here */
+
+.accountspg{
+    display:inline-flex;
+    margin-top: 30px;
+    /* padding: 20px; */
+    gap: 40px;
+}
+.userdata li{
+    display: flex;
+   list-style-type: none;
+   height: 50px;
+   width: 300px;
+   border: 1px solid lightgray;
+   justify-content: left;
+   align-items: center;
+   padding: 0px 10px;
+   /* margin-top: 20px; */
+}
+/* .msg{
+    border: 1px solid lightgray;
+    height: 150px;
+    width: 70%;
+    margin-top: 15px;
+   
+} */
+.greetingmsg{
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 80%;
+    background-color: lightgrey;
+    margin-top: 15px;
+}
+.greetingpara{
+    border: 1px solid lightgray;
+    height: 80px;
+    width: 80%;
+}
+/* .msg h4{
+    margin-left: 20px;
+    background-color: lightslategray;
+} */
+/* .msg p{
+    margin-left: 20px;
+} */
+
+/* My Accounts css code ends here */
