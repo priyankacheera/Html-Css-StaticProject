@@ -648,12 +648,12 @@ background-color:white;
     margin: 10px;
     border: none;
 }
- table{
+.columnobjects table{
     margin-left: 100px;
     padding: 10px;
     position: relative;
 } 
-table th{
+ .columnobjects table th{
     position: relative;
     padding:10px 10px 10px 0%;
     right: 100px;
@@ -701,6 +701,7 @@ form input{
 .footer{
     display: flex;
     justify-content: space-around;
+    margin-left: 50px;
 }
 .Address p:hover{
        margin-left: 10px;
@@ -932,8 +933,11 @@ form input{
 .accountspg{
     display:inline-flex;
     margin-top: 30px;
-    /* padding: 20px; */
+    padding: 20px;
     gap: 40px;
+    margin-left: 100px;
+    /* justify-self: center; */
+    
 }
 .userdata li{
     display: flex;
@@ -946,13 +950,7 @@ form input{
    padding: 0px 10px;
    /* margin-top: 20px; */
 }
-/* .msg{
-    border: 1px solid lightgray;
-    height: 150px;
-    width: 70%;
-    margin-top: 15px;
-   
-} */
+
 .greetingmsg{
     border: 1px solid lightgray;
     height: 40px;
@@ -965,12 +963,95 @@ form input{
     height: 80px;
     width: 80%;
 }
-/* .msg h4{
-    margin-left: 20px;
-    background-color: lightslategray;
-} */
-/* .msg p{
-    margin-left: 20px;
-} */
+.userdata #dashboard{
+    background-color: rgb(0, 128, 119);
+}
 
 /* My Accounts css code ends here */
+
+
+
+
+
+/* Compare page code starts here */
+
+.comparision  table td{
+    text-align: center;
+    /* align-items: center; */
+}
+
+.comparision #name{
+    color: rgb(0, 128, 117);
+}
+
+.comparision #stock{
+    color: rgb(0, 128, 117);
+}
+.comparision button{
+    padding: 10px;
+    background-color: rgb(0, 128, 117);
+}
+.comparision{
+    padding: 20px 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login page Code start here */
+
+.loginpage{
+    display: flex;
+    margin-left: 50px;
+    justify-content: center; 
+    gap: 30px;
+}
+.login{
+    border: 1px solid lightgrey;
+    height: 250px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.login input{
+    width: 600px;
+    height: 40px;
+    
+}
+.CreateAccount{
+    border: 1px solid lightgrey;
+    height: 380px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.CreateAccount input{
+    width: 600px;
+    height: 40px;
+    
+}
+.loginpage button{
+    padding: 10px;
+    background-color: rgb(0, 128, 124);
+    border: solid lightgrey;
+    color: aliceblue;
+}
+.loginpage button:hover{
+    color: rgb(0, 128, 119);
+    background-color:white;
+}
+
+/* login page Code end here */
