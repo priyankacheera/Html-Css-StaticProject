@@ -78,7 +78,7 @@
 }
 .content{
     margin-top: 50px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .content h1 span{
     color: rgb(0, 128, 124);
@@ -97,14 +97,17 @@
         background-color:white;
 }
 .popularcategory h2{
-    margin-left: 100px;
+    /* margin: 100px; */
     margin-top: 50px;
+    padding: 0px 50px;
 }
 
 .cards{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+    margin: 0px 50px;
+    /* justify-content: space-around; */
 }
 .cards p{
     text-align: center;
@@ -112,14 +115,14 @@
 
 .cards img{
     height: 150px;
-    width: 150px;
+    width: 180px;
     border-radius: 10px;
    
 }
 .individualcard{
     padding: 10px;
     border: 1px solid black;
-     margin: 20px; 
+     margin: 20px 10px; 
      border-radius: 10px;
 }
 
@@ -134,8 +137,8 @@
     padding: 10px;
 }
 .featuredbuttons{
-     margin-left: 100px;
-    padding: 20px;
+     /* margin-left: 100px; */
+    padding:  20px 50px;
 } 
 .featuredbuttons .fpbutton{
     padding: 10px;
@@ -153,12 +156,13 @@
     
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding: 0px 50px;
+    /* justify-content: space-evenly; */
 }
 .fCard .btnhot{
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 20px;
     border-radius: 10px;
     border: none;
     background-color: coral;
@@ -168,7 +172,7 @@
     opacity: 0;
     position: absolute;
     top: 100px;
-     left: 100px;  
+     left: 120px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,8 +250,8 @@ background-color:white;
 
 
 .fCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -256,12 +260,12 @@ background-color:white;
 }
 
  .Shirtimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-1-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 
 } 
 .info{
@@ -294,8 +298,8 @@ background-color:white;
 /* Featured Products Card2 */
 
 .floralshirtCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -315,12 +319,12 @@ background-color:white;
     opacity: 1;
 }
 .floralshirtimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-2-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .floralshirtCard:hover .floralshirtimg{
     background-image: url(/assets/img/product-2-2.jpg);
@@ -330,8 +334,8 @@ background-color:white;
 /* Featured Products Card3 */
 
 .shoeCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -351,12 +355,12 @@ background-color:white;
     opacity: 1;
 }
 .shoeimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-3-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .shoeCard:hover .shoeimg{
     background-image: url(/assets/img/product-3-2.jpg);
@@ -365,8 +369,8 @@ background-color:white;
 
 /* Featured Products Card4 */
 .trousersCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -386,12 +390,12 @@ background-color:white;
     opacity: 1;
 }
 .trousersimg{
-    height:200px ;
-    background-image: url(/assets/img/product-4-1.jpg);
+    height:260px ;
+    background-image: url(/assets/img/product-3-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .trousersCard:hover .trousersimg{
     background-image: url(/assets/img/product-4-2.jpg);
@@ -401,8 +405,8 @@ background-color:white;
 /* Featured Products card5 */
 
 .scarfcapCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -423,12 +427,12 @@ background-color:white;
     opacity: 1;
 }
 .scarfcapimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-5-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .scarfcapCard:hover .scarfcapimg{
     background-image: url(/assets/img/product-5-2.jpg);
@@ -438,8 +442,8 @@ background-color:white;
 /* Featured Products card6*/
 
 .colorpatternCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -459,12 +463,12 @@ background-color:white;
     opacity: 1;
 }
 .colorpatternimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-6-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .colorpatternCard:hover .colorpatternimg{
     background-image: url(/assets/img/product-6-2.jpg);
@@ -474,8 +478,8 @@ background-color:white;
 /* Featured Products card 7*/
 
 .womenCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -495,12 +499,12 @@ background-color:white;
     opacity: 1;
 }
 .womenimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-7-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .womenCard:hover .womenimg{
     background-image: url(/assets/img/product-7-2.jpg);
@@ -510,8 +514,8 @@ background-color:white;
 /* Featured Products card 8*/
 
 .coatshirtCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -531,12 +535,12 @@ background-color:white;
     opacity: 1;
 }
 .coatshirtimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-8-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     
 } 
 .coatshirtCard:hover .coatshirtimg{
@@ -552,6 +556,7 @@ background-color:white;
 .Dealings{
      display: flex;
      justify-content: center; 
+     margin: 0px 50px;
      
 }
 .dealsofday{
@@ -559,8 +564,8 @@ background-color:white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 10px;
-    height: 400px;
-    width: 650px;
+    height: 480px;
+    width: 750px;
     /* position: relative; */
 }
 .dealsimgcontent{
@@ -612,9 +617,9 @@ background-color:white;
     background-image: url(/assets/img/deals-2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: 10px;
-    height: 400px;
-    width: 600px;
+    margin: 10px 30px;
+    height: 480px;
+    width: 680px;
 }
 .Dealings button{
     padding: 10px;
@@ -633,7 +638,7 @@ background-color:white;
 /* New Arrivals code starts here */
 
 .newarrivals h2{
-    margin-left: 100px;
+    margin: 20px 50px;
 }
 .newarrivalcards{
     display: flex;
@@ -649,7 +654,7 @@ background-color:white;
     border: none;
 }
 .columnobjects table{
-    margin-left: 100px;
+    margin: 20px 50px ;
     padding: 10px;
     position: relative;
 } 
@@ -703,6 +708,16 @@ form input{
     justify-content: space-around;
     margin-left: 50px;
 }
+.contact{
+    border: 1px solid;
+    width: 450px;
+    border: none;
+}
+.Address{
+    border: 1px solid;
+    width: 250px;
+    border: none;
+}
 .Address p:hover{
        margin-left: 10px;
 }
@@ -739,13 +754,14 @@ form input{
     margin-left: 20px;
 }
 .shopproducts{
-    margin-left: 100px;
+    margin: 0px 50px;
     padding: 30px;
 }
+
 /* featured card products 9 */
 .sandalCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -765,12 +781,12 @@ form input{
     opacity: 1;
 }
 .sandalCardimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-10-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .sandalCard:hover .sandalCardimg{
     background-image: url(/assets/img/product-10-2.jpg);
@@ -780,8 +796,8 @@ form input{
 /* Featured Products Card10 */
 
 .floralpantCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -801,12 +817,12 @@ form input{
     opacity: 1;
 }
 .floralpantimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-11-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .floralpantCard:hover .floralpantimg{
     background-image: url(/assets/img/product-11-2.jpg);
@@ -815,8 +831,8 @@ form input{
 
 /* Featured Products Card4 */
 .trousersCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -836,12 +852,12 @@ form input{
     opacity: 1;
 }
 .trousersimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-4-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .trousersCard:hover .trousersimg{
     background-image: url(/assets/img/product-4-2.jpg);
@@ -851,8 +867,8 @@ form input{
 /* Featured Products card5 */
 
 .whiteshirtCard{
-    height: 400px;
-    width: 300px;
+    height: 420px;
+    width: 320px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 5px;
@@ -873,12 +889,12 @@ form input{
     opacity: 1;
 }
 .whiteshirtimg{
-    height:200px ;
+    height:260px ;
     background-image: url(/assets/img/product-12-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 } 
 .whiteshirtCard:hover .whiteshirtimg{
     background-image: url(/assets/img/product-12-2.jpg);
