@@ -273,7 +273,7 @@ background-color:rgb(144, 238, 219);
 
  .Shirtimg{
     height:240px ;
-    background-image: url(/assets/img/product-1-1.jpg);
+    background-image: url(./assets/img/product-1-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -308,7 +308,7 @@ background-color:rgb(144, 238, 219);
 } */
 
 .fCard:hover .Shirtimg{
-    background-image: url(/assets/img/product-1-2.jpg);
+    background-image: url(./assets/img/product-1-2.jpg);
     transition: all 2s linear;
 }
 
@@ -382,14 +382,14 @@ background-color:rgb(144, 238, 219);
 }
 .floralshirtimg{
     height:240px ;
-    background-image: url(/assets/img/product-2-1.jpg);
+    background-image: url(./assets/img/product-2-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .floralshirtCard:hover .floralshirtimg{
-    background-image: url(/assets/img/product-2-2.jpg);
+    background-image: url(./assets/img/product-2-2.jpg);
     transition: all 2s linear;
 }
 
@@ -418,14 +418,14 @@ background-color:rgb(144, 238, 219);
 }
 .shoeimg{
     height:240px ;
-    background-image: url(/assets/img/product-3-1.jpg);
+    background-image: url(./assets/img/product-3-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .shoeCard:hover .shoeimg{
-    background-image: url(/assets/img/product-3-2.jpg);
+    background-image: url(./assets/img/product-3-2.jpg);
     transition: all 2s linear;
 }
 
@@ -453,14 +453,14 @@ background-color:rgb(144, 238, 219);
 }
 .trousersimg{
     height:240px ;
-    background-image: url(/assets/img/product-3-1.jpg);
+    background-image: url(./assets/img/product-3-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .trousersCard:hover .trousersimg{
-    background-image: url(/assets/img/product-4-2.jpg);
+    background-image: url(./assets/img/product-4-2.jpg);
     transition: all 2s linear;
 }
 
@@ -490,14 +490,14 @@ background-color:rgb(144, 238, 219);
 }
 .scarfcapimg{
     height:240px ;
-    background-image: url(/assets/img/product-5-1.jpg);
+    background-image: url(./assets/img/product-5-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .scarfcapCard:hover .scarfcapimg{
-    background-image: url(/assets/img/product-5-2.jpg);
+    background-image: url(./assets/img/product-5-2.jpg);
     transition: all 2s linear;
 }
 
@@ -526,14 +526,14 @@ background-color:rgb(144, 238, 219);
 }
 .colorpatternimg{
     height:240px ;
-    background-image: url(/assets/img/product-6-1.jpg);
+    background-image: url(./assets/img/product-6-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .colorpatternCard:hover .colorpatternimg{
-    background-image: url(/assets/img/product-6-2.jpg);
+    background-image: url(./assets/img/product-6-2.jpg);
     transition: all 2s linear;
 }
 
@@ -562,14 +562,14 @@ background-color:rgb(144, 238, 219);
 }
 .womenimg{
     height:240px ;
-    background-image: url(/assets/img/product-7-1.jpg);
+    background-image: url(./assets/img/product-7-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .womenCard:hover .womenimg{
-    background-image: url(/assets/img/product-7-2.jpg);
+    background-image: url(./assets/img/product-7-2.jpg);
     transition: all 2s linear;
 }
 
@@ -598,7 +598,7 @@ background-color:rgb(144, 238, 219);
 }
 .coatshirtimg{
     height:240px ;
-    background-image: url(/assets/img/product-8-1.jpg);
+    background-image: url(./assets/img/product-8-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -606,7 +606,7 @@ background-color:rgb(144, 238, 219);
     
 } 
 .coatshirtCard:hover .coatshirtimg{
-    background-image: url(/assets/img/product-8-2.jpg);
+    background-image: url(./assets/img/product-8-2.jpg);
     transition: all 2s linear;
 }
 
@@ -623,7 +623,7 @@ background-color:rgb(144, 238, 219);
      
 }
 .dealsofday{
-    background-image: url(/assets/img/deals-1.jpg);
+    background-image: url(./assets/img/deals-1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 10px;
@@ -678,7 +678,7 @@ background-color:rgb(144, 238, 219);
 }
 .Womenclothing{
    
-    background-image: url(/assets/img/deals-2.png);
+    background-image: url(./assets/img/deals-2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 10px 50px 0px 0px;
@@ -846,14 +846,14 @@ form input{
 }
 .sandalCardimg{
     height:240px ;
-    background-image: url(/assets/img/product-10-1.jpg);
+    background-image: url(./assets/img/product-10-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .sandalCard:hover .sandalCardimg{
-    background-image: url(/assets/img/product-10-2.jpg);
+    background-image: url(./assets/img/product-10-2.jpg);
     transition: all 2s linear;
 }
 
@@ -882,14 +882,14 @@ form input{
 }
 .floralpantimg{
     height:240px ;
-    background-image: url(/assets/img/product-11-1.jpg);
+    background-image: url(./assets/img/product-11-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .floralpantCard:hover .floralpantimg{
-    background-image: url(/assets/img/product-11-2.jpg);
+    background-image: url(./assets/img/product-11-2.jpg);
     transition: all 2s linear;
 }
 
@@ -917,14 +917,14 @@ form input{
 }
 .trousersimg{
     height:240px ;
-    background-image: url(/assets/img/product-4-1.jpg);
+    background-image: url(./assets/img/product-4-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .trousersCard:hover .trousersimg{
-    background-image: url(/assets/img/product-4-2.jpg);
+    background-image: url(./assets/img/product-4-2.jpg);
     transition: all 2s linear;
 }
 
@@ -954,14 +954,14 @@ form input{
 }
 .whiteshirtimg{
     height:240px ;
-    background-image: url(/assets/img/product-12-1.jpg);
+    background-image: url(./assets/img/product-12-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
     /* padding: 10px; */
 } 
 .whiteshirtCard:hover .whiteshirtimg{
-    background-image: url(/assets/img/product-12-2.jpg);
+    background-image: url(./assets/img/product-12-2.jpg);
     transition: all 2s linear;
 }
 
